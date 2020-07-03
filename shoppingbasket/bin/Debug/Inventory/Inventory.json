@@ -1,0 +1,49 @@
+{
+  "Products": 
+  [
+    {
+      "name": "milk",
+      "unit": "bottles",
+      "price": 1.30,
+      "qty": 0,
+      "has_offer": false,
+      "on_product": null,
+      "on_qty": 0,
+      "multiplier": 1.0,
+      "adder": 0.0
+    },
+    {
+      "name": "bread",
+      "unit": "loaves",
+      "price": 0.80,
+      "qty": 0,
+      "has_offer": true,
+      "on_product": "bean",
+      "on_qty": 2,
+      "multiplier": 0.5,
+      "adder": 0.0
+    },
+    {
+      "name": "bean",
+      "unit": "cans",
+      "price": 0.65,
+      "qty": 0,
+      "has_offer": false,
+      "on_product": null,
+      "on_qty": 0,
+      "multiplier": 1.0,
+      "adder": 0.0
+    },
+    {
+      "name": "apple",
+      "unit": "bags",
+      "price": 1,
+      "qty": 0,
+      "has_offer": true,
+      "on_product": "apple",
+      "on_qty": 1,
+      "multiplier": 0.9,
+      "adder": 0.0
+    }
+  ]
+}
